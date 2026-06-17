@@ -1,4 +1,4 @@
-function divide(numerator, denominator) {
+function divide(numerator: number, denominator: number): number {
   if (typeof numerator !== 'number' || typeof denominator !== 'number') {
     throw new TypeError('Both numerator and denominator must be numbers');
   }
